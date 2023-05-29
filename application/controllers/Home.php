@@ -1,5 +1,5 @@
 <?php
-class Welcome extends CI_Controller
+class Home extends CI_Controller
 {
 
     public function index()

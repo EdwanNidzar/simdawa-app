@@ -8,10 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title><?= $title; ?></title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="<?= base_url('assets/vendor/bootstrap/css/bootstrap.min.css') ?>">
-    <link rel="stylesheet" href="<?= base_url('assets/vendor/fonts/circular-std/style.css') ?>">
-    <link rel="stylesheet" href="<?= base_url('assets/libs/css/style.css') ?>">
-    <link rel="stylesheet" href="<?= base_url('assets/vendor/fonts/fontawesome/css/fontawesome-all.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/assets/vendor/bootstrap/css/bootstrap.min.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/assets/vendor/fonts/circular-std/style.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/assets/libs/css/style.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/assets/vendor/fonts/fontawesome/css/fontawesome-all.css') ?>">
 </head>
 
 <body>
