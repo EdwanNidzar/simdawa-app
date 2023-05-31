@@ -6,6 +6,7 @@ class Persyaratan extends CI_Controller
     {
         parent::__construct();
         $this->load->model('PersyaratanModel');
+        $this->load->library('Pdf');
     }
 
     public function index()
@@ -54,5 +55,11 @@ class Persyaratan extends CI_Controller
             $this->PersyaratanModel->delete_persyaratan($id);
             redirect('persyaratan');
         }
+    }
+
+    public function cetak()
+    {
+        $data['persyaratan'] = $this->PersyaratanModel->get_persyaratan();
+        $this->load->view('persyaratan/persyaratan_print', $data);
     }
 }

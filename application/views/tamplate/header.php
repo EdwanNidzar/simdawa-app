@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="<?= base_url('assets/assets/vendor/fonts/circular-std/style.css') ?>">
     <link rel="stylesheet" href="<?= base_url('assets/assets/libs/css/style.css') ?>">
     <link rel="stylesheet" href="<?= base_url('assets/assets/vendor/fonts/fontawesome/css/fontawesome-all.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/assets/vendor/datatables/css/dataTables.bootstrap4.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/assets/vendor/datatables/css/buttons.bootstrap4.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/assets/vendor/datatables/css/select.bootstrap4.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/assets/vendor/datatables/css/fixedHeader.bootstrap4.css') ?>">
 </head>
 
 <body>
@@ -31,7 +35,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto navbar-right-top">
                         <li class="nav-item dropdown nav-user">
-                            <a class="nav-link nav-user-img" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="<?= base_url('assets/images/avatar-1.jpg') ?>" alt="" class="user-avatar-md rounded-circle"></a>
+                            <a class="nav-link nav-user-img" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="<?= base_url('assets/assets/images/avatar-1.jpg') ?>" alt="" class="user-avatar-md rounded-circle"></a>
                             <div class="dropdown-menu dropdown-menu-right nav-user-dropdown" aria-labelledby="navbarDropdownMenuLink2">
                                 <div class="nav-user-info">
                                     <h5 class="mb-0 text-white nav-user-name">

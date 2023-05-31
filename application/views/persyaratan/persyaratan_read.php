@@ -2,6 +2,9 @@
     <div class="container-fluid dashboard-content">
         <div class="row">
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <?php
+                $this->load->view('/tamplate/notifikasi') //memanggil notifikasi.php
+                ?>
                 <div class="page-header">
                     <h2 class="pageheader-title">Data Persyaratan Beasiswa</h2>
                     <div class="page-breadcrumb">
@@ -22,6 +25,8 @@
                     <div class="card-header">Data Persyaratan
                         <a href="<?= base_url('persyaratan/tambah') ?>" class="btn btn-sm btn-success float-right">
                             <i class="fas fa-plus"></i> Tambah Data</a>
+                        <a href="<?= base_url('persyaratan/cetak') ?>" target="_blank" class="btn btn-sm btn-info float-right">
+                            <i class="fas fa-print"></i> Cetak Data</a>
                     </div>
                     <div class="card-body">
                         <table class="table table-bordered" id="mytable">

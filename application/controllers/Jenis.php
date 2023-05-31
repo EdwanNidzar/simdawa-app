@@ -6,6 +6,7 @@ class Jenis extends CI_Controller
     {
         parent::__construct();
         $this->load->model('JenisModel');
+        $this->load->library('Pdf');
     }
 
     public function index()
@@ -54,5 +55,11 @@ class Jenis extends CI_Controller
             $this->JenisModel->delete_jenis($id);
             redirect('jenis');
         }
+    }
+
+    public function cetak()
+    {
+        $data['jenis'] = $this->JenisModel->get_jenis();
+        $this->load->view('jenis/jenis_print', $data);
     }
 }
