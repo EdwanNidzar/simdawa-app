@@ -44,7 +44,7 @@
                         <div id="submenu-3" class="collapse submenu">
                             <ul class="nav flex-column">
                                 <li class="nav-item">
-                                    <a class="nav-item" href="<?= base_url('pengajuan'); ?>">Pengajuan Keseluruha</span></a>
+                                    <a class="nav-item" href="<?= base_url('pengajuan'); ?>">Pengajuan Keseluruhan</span></a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-item" href="<?= base_url('pengajuan/diusulkan'); ?>">Pengajuan Diusulkan</span></a>
